@@ -1,27 +1,27 @@
 [
   {
     "id": "1",
-    "image": "/assets/image/image19.jpg",
+    "image": "image/image19.jpg",
     "name": "زنانه"
   },
   {
     "id": "2",
-    "image": "/assets/image/image20.jpg",
+    "image": "image/image20.jpg",
     "name": "دسته بندی نشده"
   },
   {
     "id": "3",
-    "image": "/assets/image/image15.jpg",
+    "image": "image/image15.jpg",
     "name": "پوشاک و لباس خیابانی "
   },
   {
     "id": "4",
-    "image": "/assets/image/image14.jpg",
+    "image": "image/image14.jpg",
     "name": "لباس بهاری"
   },
   {
     "id": "5",
-    "image": "/assets/image/image21.jpg",
+    "image": "image/image21.jpg",
     "name": "جدید "
   }
 ]

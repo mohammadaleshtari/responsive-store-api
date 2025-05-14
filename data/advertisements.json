@@ -1,19 +1,19 @@
 [
   {
     "id": "1",
-    "image": "/assets/image/icon-1.png",
+    "image": "image/icon-1.png",
     "text": "یک سالاد ساده با طعم دلچسب، یا حتی یک بستر پنیر",
     "link": "همین امروز تم آوادا را بخرید"
   },
   {
     "id": "2",
-    "image": "/assets/image/icon-2.png",
+    "image": "image/icon-2.png",
     "text": "یک سالاد ساده با طعم دلچسب، یا حتی یک بستر پنیر",
     "link": "همین امروز تم آوادا را بخرید"
   },
   {
     "id": "3",
-    "image": "/assets/image/icon-3.png",
+    "image": "image/icon-3.png",
     "text": "یک سالاد ساده با طعم دلچسب، یا حتی یک بستر پنیر",
     "link": "همین امروز تم آوادا را بخرید"
   }

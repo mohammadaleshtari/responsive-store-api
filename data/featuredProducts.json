@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "/assets/image/image5.jpg",
+    "image": "image/image5.jpg",
     "name": "تاپ ساده تانک",
     "price": "450تومان",
     "Discount": "399تومان",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "image": "/assets/image/image6.jpg",
+    "image": "image/image6.jpg",
     "name": "پیراهن ابریشمی تیره",
     "price": "899تومان",
     "Discount": "399تومان",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "image": "/assets/image/image7.jpg",
+    "image": "image/image7.jpg",
     "name": "لباس خال خالی بهاره",
     "price": "450تومان",
     "Discount": "399تومان",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "image": "/assets/image/image8.jpg",
+    "image": "image/image8.jpg",
     "name": "وول پارکا",
     "price": "298تومان ",
     "Discount": "399تومان",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "image": "/assets/image/image9.jpg",
+    "image": "image/image9.jpg",
     "name": "لباس سفید",
     "price": "299تومان",
     "Discount": "399تومان",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "image": "/assets/image/image10.jpg",
+    "image": "image/image10.jpg",
     "name": "لیاس گل روشن ",
     "price": "298تومان ",
     "Discount": "399تومان",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "image": "/assets/image/image11.jpg",
+    "image": "image/image11.jpg",
     "name": "ژاکت مردانه",
     "price": "899تومان",
     "Discount": "399تومان",
@@ -57,7 +57,7 @@
   },
   {
     "id": "8",
-    "image": "/assets/image/image12.jpg",
+    "image": "image/image12.jpg",
     "name": "  ژاکت قرمز  ",
     "price": "450تومان ",
     "Discount": "399تومان",
