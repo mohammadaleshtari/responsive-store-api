@@ -58,7 +58,7 @@ fetchData("data/bestsellerProducts.json", "bestsellerProducts", (elem) => {
 fetchData("data/advertisements.json", "advertisements", (elem) => {
   return `
     <div>
-      <img src=${elem.image}>
+      <img src=${elem.image} />
       <p>${elem.text}</p>
       <p><a href="#">${elem.link}</a></p>
     </div>`;
