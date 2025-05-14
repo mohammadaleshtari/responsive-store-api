@@ -4,15 +4,12 @@ let fetchData = async (url, elementId, template) => {
   document.getElementById(elementId).innerHTML = data.join("");
 };
 
-fetchData("http://localhost:3000/mainMenu ", "mainMenu", (elem) => {
+fetchData("data/mainMenu.json", "mainMenu", (elem) => {
   return `<li><a class="active" href="#">${elem.name}</a></li>`;
 });
 
-fetchData(
-  "http://localhost:3000/featuredProducts",
-  "featuredProducts",
-  (elem) => {
-    return `
+fetchData("data/featuredProducts.json", "featuredProducts", (elem) => {
+  return `
     <div>
       <a href="#"> <img src=${elem.image} alt=""></a>
       <h2>${elem.name}</h2>
@@ -22,26 +19,18 @@ fetchData(
         <p>${elem.off}</p>
       </div>
     </div>`;
-  }
-);
+});
 
-fetchData(
-  "http://localhost:3000/productCategories",
-  "productCategories",
-  (elem) => {
-    return `
+fetchData("data/productCategories.json", "productCategories", (elem) => {
+  return `
     <div> 
       <a href="#"><img src=${elem.image} /></a>
       <p>${elem.name}</p>
     </div>`;
-  }
-);
+});
 
-fetchData(
-  "http://localhost:3000/recommendedProducts",
-  "recommendedProducts",
-  (elem) => {
-    return `
+fetchData("data/recommendedProducts.json", "recommendedProducts", (elem) => {
+  return `
     <div>
       <a href="#"><img src=${elem.image}></img></a>
       <p>${elem.name}</p>
@@ -51,14 +40,10 @@ fetchData(
         <p>${elem.off}</p>
       </div>
     </div>`;
-  }
-);
+});
 
-fetchData(
-  "http://localhost:3000/bestsellerProducts",
-  "bestsellerProducts",
-  (elem) => {
-    return `
+fetchData("data/bestsellerProducts.json", "bestsellerProducts", (elem) => {
+  return `
     <div>
       <a href="#"><img src=${elem.image} /></a>
       <p>${elem.name}</p>
@@ -68,10 +53,9 @@ fetchData(
         <p>${elem.off}</p>
       </div>
     </div>`;
-  }
-);
+});
 
-fetchData("http://localhost:3000/advertisements", "advertisements", (elem) => {
+fetchData("data/advertisements.json", "advertisements", (elem) => {
   return `
     <div>
       <img src=${elem.image}>
@@ -80,14 +64,10 @@ fetchData("http://localhost:3000/advertisements", "advertisements", (elem) => {
     </div>`;
 });
 
-fetchData("http://localhost:3000/ShoppingMenu", "ShoppingMenu", (elem) => {
+fetchData("data/ShoppingMenu.json", "ShoppingMenu", (elem) => {
   return `<li><a href="#">${elem.name}</a></li>`;
 });
 
-fetchData(
-  "http://localhost:3000/footerAccountMenu",
-  "footerAccountMenu",
-  (elem) => {
-    return `<li><a href="#">${elem.name}</a></li>`;
-  }
-);
+fetchData("data/footerAccountMenu.json", "footerAccountMenu", (elem) => {
+  return `<li><a href="#">${elem.name}</a></li>`;
+});

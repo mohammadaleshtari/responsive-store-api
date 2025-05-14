@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/image/image24.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "2",
+    "image": "/assets/image/image2.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "3",
+    "image": "/assets/image/image25.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "4",
+    "image": "/assets/image/image14.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "5",
+    "image": "/assets/image/image12.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "6",
+    "image": "/assets/image/image10.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  }
+]
