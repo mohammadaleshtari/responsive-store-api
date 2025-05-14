@@ -129,7 +129,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -172,7 +172,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -203,7 +203,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -211,7 +211,7 @@
     padding: 70px;
   }
   section.product-highlights > div.ShoppingMenu > input {
-    background-image: url(/image/image28.png);
+    background-image: url(image/image28.png);
     background-position: 10px 8px;
     background-repeat: no-repeat;
     padding: 13px;
@@ -435,7 +435,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -552,7 +552,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -577,7 +577,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 57vh;
@@ -765,7 +765,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -785,7 +785,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 90vh;
@@ -898,7 +898,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -1020,7 +1020,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 60vh;
     width: 97%;
     background-color: #0d244c;
@@ -1310,7 +1310,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -1353,7 +1353,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -1384,7 +1384,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -1392,7 +1392,7 @@
     padding: 70px;
   }
   section.product-highlights > div.ShoppingMenu > input {
-    background-image: url(/image/image28.png);
+    background-image: url(image/image28.png);
     background-position: 10px 8px;
     background-repeat: no-repeat;
     padding: 13px;
@@ -1617,7 +1617,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1734,7 +1734,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -1759,7 +1759,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 57vh;
@@ -1947,7 +1947,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -1967,7 +1967,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 90vh;
@@ -2080,7 +2080,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -2202,7 +2202,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 60vh;
     width: 97%;
     background-color: #0d244c;
@@ -2492,7 +2492,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -2535,7 +2535,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -2566,7 +2566,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -2574,7 +2574,7 @@
     padding: 60px;
   }
   section.product-highlights > div.ShoppingMenu > input {
-    background-image: url(/image/image28.png);
+    background-image: url(image/image28.png);
     background-position: 10px 8px;
     background-repeat: no-repeat;
     padding: 13px;
@@ -2799,7 +2799,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -2916,7 +2916,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -2941,7 +2941,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 57vh;
@@ -3129,7 +3129,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -3149,7 +3149,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 90vh;
@@ -3262,7 +3262,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -3384,7 +3384,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 60vh;
     width: 97%;
     background-color: #0d244c;
@@ -3675,7 +3675,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -3718,7 +3718,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -3749,7 +3749,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -3757,7 +3757,7 @@
     padding: 40px;
   }
   section.product-highlights > div.ShoppingMenu > input {
-    background-image: url(/image/image28.png);
+    background-image: url(image/image28.png);
     background-position: 10px 8px;
     background-repeat: no-repeat;
     padding: 13px;
@@ -3982,7 +3982,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -4099,7 +4099,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -4124,7 +4124,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 57vh;
@@ -4312,7 +4312,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -4332,7 +4332,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 90vh;
@@ -4445,7 +4445,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -4567,7 +4567,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 60vh;
     width: 97%;
     background-color: #0d244c;
@@ -4860,7 +4860,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -4903,7 +4903,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -4934,7 +4934,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -4942,7 +4942,7 @@
     padding: 40px;
   }
   section.product-highlights > div.ShoppingMenu > input {
-    background-image: url(/image/image28.png);
+    background-image: url(image/image28.png);
     background-position: 10px 8px;
     background-repeat: no-repeat;
     padding: 13px;
@@ -5167,7 +5167,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -5284,7 +5284,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 55vh;
@@ -5309,7 +5309,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 57vh;
@@ -5497,7 +5497,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -5517,7 +5517,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 90vh;
@@ -5630,7 +5630,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -5752,7 +5752,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 60vh;
     width: 97%;
     background-color: #0d244c;
@@ -6040,7 +6040,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image4.jpg) no-repeat center center scroll;
+      url(image/image4.jpg) no-repeat center center scroll;
     background-size: cover;
     transition: all 400ms linear;
   }
@@ -6083,7 +6083,7 @@
         rgba(13, 36, 76, 0.082),
         rgba(13, 36, 76, 0.062)
       ),
-      url(/image/image1.jpg) no-repeat center center scroll;
+      url(image/image1.jpg) no-repeat center center scroll;
     transition: all 400ms linear;
     background-size: cover;
   }
@@ -6114,7 +6114,7 @@
     text-decoration: none;
   }
   section.product-highlights > div.ShoppingMenu {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     width: 100%;
     background-color: #0d244c;
     display: flex;
@@ -6339,7 +6339,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image15.jpg) no-repeat center center scroll;
+      url(image/image15.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -6457,7 +6457,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image2.jpg) no-repeat center center scroll;
+      url(image/image2.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 90%;
     height: 55vh;
@@ -6482,7 +6482,7 @@
         rgba(37, 34, 34, 0.164),
         rgba(0, 0, 0, 0.158)
       ),
-      url(/image/image3.jpg) no-repeat center center scroll;
+      url(image/image3.jpg) no-repeat center center scroll;
     background-size: cover;
     width: 90%;
     height: 55vh;
@@ -6664,7 +6664,7 @@
   section.image-section {
     width: 97%;
     height: 110vh;
-    background: url(/image/banner-3-scaled.jpg) no-repeat center center
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
       scroll;
     background-size: cover;
     padding: 100px 50px 100px 50px;
@@ -6685,7 +6685,7 @@
         rgba(255, 253, 253, 0.219),
         rgba(238, 226, 226, 0.699)
       ),
-      url(/image/image26.png) no-repeat center center scroll;
+      url(image/image26.png) no-repeat center center scroll;
     background-size: cover;
     width: 97%;
     height: 240vh;
@@ -6796,7 +6796,7 @@
         rgba(29, 28, 28, 0.432),
         rgba(20, 2, 2, 0.712)
       ),
-      url(/image/image27.jpg) no-repeat center center scroll;
+      url(image/image27.jpg) no-repeat center center scroll;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
@@ -6914,7 +6914,7 @@
     font-family: IRANYekanX;
   }
   section.advertising {
-    background: url(/image/logo2.png) repeat center center scroll;
+    background: url(image/logo2.png) repeat center center scroll;
     height: 100vh;
     width: 97%;
     background-color: #0d244c;
