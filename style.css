@@ -1,0 +1,7089 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: IRANYekanX;
+  src: url(font/IRANYekanX\(Eco\)/Webfonts/woff/IRANYekanX-Regular.woff);
+}
+@font-face {
+  font-family: Fontjo;
+  src: url(font/Far.Badr-Fontjo.com/Far.Badr.ttf);
+}
+@media (min-width: 1400px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 50%;
+    margin-left: 20px;
+  }
+  section.social-links > div > a > i {
+    padding: 8px;
+    font-size: 13px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+    margin-left: 50px;
+    color: #0d244c;
+    font-size: 12px;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  section.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    margin-left: 23px;
+    width: 20%;
+  }
+  section.header-content > nav {
+    width: 60%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 10px;
+    margin: 0px 10px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 10px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 16%;
+    text-align: right;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 50%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    background-image: url(image/image28.png);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    width: 30%;
+    margin-left: 80px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 17px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 10px;
+    margin: 0px 20px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 73vh;
+    padding: 55px;
+  }
+  section.promotion > img {
+    margin: 20px 0px;
+  }
+  section.promotion > p {
+    font-size: 28px;
+    width: 65%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 50px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 17px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 16px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 21%;
+    margin: 20px 18px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 15px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 48%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto 15px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 46%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 38px;
+    margin-top: 0px;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 57vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 110vh;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 30%;
+    margin-left: 30px;
+    position: relative;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 80%;
+    height: 28vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 35px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 65vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.product-categories > div.productCategories {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  section.product-categories > div.productCategories > div {
+    width: 18%;
+    height: 35vh;
+    margin: 25px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  section.spring-sales > div {
+    width: 20%;
+    height: 47vh;
+    margin: 90px 25px 0px 25px;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 25px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    text-align: center;
+    width: 21%;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 15px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 20px;
+    color: #0d244c;
+    margin-right: 8px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 15px;
+    margin-right: 13px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 33px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 55px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 55px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 70vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.women-products > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.women-products > div.bestsellerProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.women-products > div.bestsellerProducts > div {
+    width: 13%;
+    height: 30vh;
+    margin: 40px 21px 0px 21px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 60vh;
+    width: 97%;
+    background-color: #0d244c;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 22%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+    width: 320px;
+    font-family: IRANYekanX;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 24%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 17px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 15px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 12%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 17px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 38%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 15px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 250px;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    margin-top: 30px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    font-family: IRANYekanX;
+    font-size: 15px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 8px;
+    font-size: 15px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 50%;
+    margin-left: 20px;
+  }
+  section.social-links > div > a > i {
+    padding: 8px;
+    font-size: 13px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+    margin-left: 50px;
+    color: #0d244c;
+    font-size: 12px;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  section.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    margin-left: 23px;
+    width: 20%;
+  }
+  section.header-content > nav {
+    width: 60%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 10px;
+    margin: 0px 10px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 10px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 16%;
+    text-align: right;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 50%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    background-image: url(image/image28.png);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    width: 30%;
+    margin-left: 80px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 17px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 10px;
+    margin: 0px 20px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 73vh;
+    padding: 55px;
+  }
+  section.promotion > img {
+    margin: 20px 0px;
+  }
+  section.promotion > p {
+    font-size: 28px;
+    width: 65%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 50px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 17px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 16px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 21%;
+    margin: 20px 18px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 15px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 48%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto 15px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 46%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 38px;
+    margin-top: 0px;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 57vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 110vh;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 30%;
+    margin-left: 30px;
+    position: relative;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 80%;
+    height: 28vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 35px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 65vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.product-categories > div.productCategories {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  section.product-categories > div.productCategories > div {
+    width: 18%;
+    height: 35vh;
+    margin: 25px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  section.spring-sales > div {
+    width: 20%;
+    height: 47vh;
+    margin: 90px 25px 0px 25px;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 25px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    text-align: center;
+    width: 21%;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 15px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 20px;
+    color: #0d244c;
+    margin-right: 8px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 15px;
+    margin-right: 13px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 33px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 55px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 55px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 70vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.women-products > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.women-products > div.bestsellerProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.women-products > div.bestsellerProducts > div {
+    width: 13%;
+    height: 30vh;
+    margin: 40px 21px 0px 21px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 60vh;
+    width: 97%;
+    background-color: #0d244c;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 22%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+    width: 320px;
+    font-family: IRANYekanX;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 24%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 17px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 15px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 12%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 17px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 38%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 15px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 250px;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    margin-top: 30px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    font-family: IRANYekanX;
+    font-size: 15px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 8px;
+    font-size: 15px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 50%;
+    margin-left: 20px;
+  }
+  section.social-links > div > a > i {
+    padding: 8px;
+    font-size: 13px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+    margin-left: 50px;
+    color: #0d244c;
+    font-size: 12px;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  section.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    margin-left: 23px;
+    width: 24%;
+  }
+  section.header-content > nav {
+    width: 60%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 10px;
+    margin: 0px 10px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 19px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 10px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 13%;
+    text-align: right;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 17px;
+    margin-left: 20px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 50%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 31px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 31px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    background-image: url(image/image28.png);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    width: 30%;
+    margin-left: 80px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 8px;
+    margin: 0px 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 73vh;
+    padding: 55px;
+  }
+  section.promotion > img {
+    margin: 18px 0px;
+  }
+  section.promotion > p {
+    font-size: 25px;
+    width: 65%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 45px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 17px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 16px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 21%;
+    margin: 20px 18px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 15px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 48%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto 15px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 27px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 27px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 15px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 46%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 38px;
+    margin-top: 0px;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 57vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 110vh;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 30%;
+    margin-left: 30px;
+    position: relative;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 80%;
+    height: 28vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 35px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 65vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.product-categories > div.productCategories {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  section.product-categories > div.productCategories > div {
+    width: 18%;
+    height: 35vh;
+    margin: 25px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  section.spring-sales > div {
+    width: 19%;
+    height: 47vh;
+    margin: 90px 25px 0px 25px;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 25px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    text-align: center;
+    width: 21%;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 15px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 20px;
+    color: #0d244c;
+    margin-right: 8px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 15px;
+    margin-right: 13px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 33px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 55px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 55px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 70vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 20px;
+  }
+  section.women-products > h2 > i {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  section.women-products > div.bestsellerProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.women-products > div.bestsellerProducts > div {
+    width: 13%;
+    height: 30vh;
+    margin: 40px 18px 0px 18px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 16px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 60vh;
+    width: 97%;
+    background-color: #0d244c;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 22%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+    width: 230px;
+    font-family: IRANYekanX;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 14px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 20%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 15px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 13px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 12%;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 13px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 40%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 15px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 200px;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px;
+    font-size: 13px;
+    outline: none;
+    margin-top: 30px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    font-family: IRANYekanX;
+    font-size: 13px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 8px;
+    font-size: 13px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 40%;
+    margin-left: 20px;
+  }
+  section.social-links > div > a > i {
+    padding: 8px;
+    font-size: 11px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+    margin-left: 50px;
+    color: #0d244c;
+    font-size: 10px;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+  section.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    margin-left: 13px;
+    width: 22%;
+  }
+  section.header-content > nav {
+    width: 60%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 8px;
+    margin: 0px 7px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 14px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 10px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 12%;
+    text-align: right;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 12px;
+    margin-left: 20px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 50%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 25px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 13px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 14px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 25px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 13px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 14px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    background-image: url(image/image28.png);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    width: 30%;
+    margin-left: 55px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 8px;
+    margin: 0px 5px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 12px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 73vh;
+    padding: 55px;
+  }
+  section.promotion > img {
+    margin: 18px 0px;
+  }
+  section.promotion > p {
+    font-size: 18px;
+    width: 65%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 45px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 17px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 16px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 20%;
+    margin: 20px 10px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 12px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 17px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 17px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 17px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 17px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 48%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto 15px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 22px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 22px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 25px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 12px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 46%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 38px;
+    margin-top: 0px;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 57vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 90vh;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 28%;
+    margin-left: 20px;
+    position: relative;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 80%;
+    height: 28vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 9px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 5px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 6px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 65vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 16px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  section.product-categories > div.productCategories {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  section.product-categories > div.productCategories > div {
+    width: 18%;
+    height: 35vh;
+    margin: 25px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 13px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  section.spring-sales > div {
+    width: 18%;
+    height: 47vh;
+    margin: 90px 20px 0px 20px;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 20px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    text-align: center;
+    width: 21%;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 13px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 17px;
+    color: #0d244c;
+    margin-right: 8px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 13px;
+    margin-right: 13px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 45px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 45px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 70vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 16px;
+  }
+  section.women-products > h2 > i {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  section.women-products > div.bestsellerProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.women-products > div.bestsellerProducts > div {
+    width: 12%;
+    height: 30vh;
+    margin: 40px 14px 0px 14px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 13px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 13px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 60vh;
+    width: 97%;
+    background-color: #0d244c;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 20%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+  section.advertising > div > img {
+    width: 30%;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 30px;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 40px;
+    width: 230px;
+    font-family: IRANYekanX;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-left: 50px;
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 18%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 12px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 10px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 11%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 46%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 12px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 200px;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px;
+    font-size: 10px;
+    outline: none;
+    margin-top: 30px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: IRANYekanX;
+    font-size: 8px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 8px;
+    font-size: 10px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 11px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 30%;
+    margin-left: 20px;
+  }
+  section.social-links > div > a > i {
+    padding: 8px;
+    font-size: 11px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 60%;
+    text-align: right;
+    margin-right: 30px;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+    margin-left: 50px;
+    color: #0d244c;
+    font-size: 10px;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+  section.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    margin-left: 13px;
+    width: 20%;
+  }
+  section.header-content > nav {
+    width: 60%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 0px;
+    margin: 0px 5px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 12px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 8px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 14%;
+    text-align: right;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 12px;
+    margin-left: 10px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 50%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    background-image: url(image/image28.png);
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    padding: 13px;
+    width: 30%;
+    margin-left: 30px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 65%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 4px;
+    margin: 0px 2px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    padding: 30px;
+  }
+  section.promotion > img {
+    margin: 15px 0px;
+  }
+  section.promotion > p {
+    font-size: 14px;
+    width: 65%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 30px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 13px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 14px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 13px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 20%;
+    margin: 20px 10px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 10px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 48%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto 15px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 46%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 38px;
+    margin-top: 0px;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 57vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 90vh;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 28%;
+    margin-left: 20px;
+    position: relative;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 85%;
+    height: 28vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 7px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 5px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 6px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 65vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 13px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  section.product-categories > div.productCategories {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  section.product-categories > div.productCategories > div {
+    width: 18%;
+    height: 35vh;
+    margin: 25px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 11px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  section.spring-sales > div {
+    width: 17%;
+    height: 47vh;
+    margin: 90px 15px 0px 15px;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 15px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    text-align: center;
+    width: 21%;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 10px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 12px;
+    color: #0d244c;
+    margin-right: 10px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 45px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 45px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 70vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 14px;
+  }
+  section.women-products > h2 > i {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  section.women-products > div.bestsellerProducts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  section.women-products > div.bestsellerProducts > div {
+    width: 12%;
+    height: 30vh;
+    margin: 40px 11px 0px 11px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 10px;
+    margin-right: 5px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 8px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 9px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 10px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 60vh;
+    width: 97%;
+    background-color: #0d244c;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 20%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+  }
+  section.advertising > div > img {
+    width: 30%;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 30px;
+    font-size: 7px;
+    color: white;
+    margin-bottom: 40px;
+    width: 120px;
+    font-family: IRANYekanX;
+    margin-right: 30px;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 18%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 12px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 10px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    line-height: 28px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 11%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-top: 1px;
+    padding: 7px;
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 46%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 12px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 200px;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px;
+    font-size: 10px;
+    outline: none;
+    margin-top: 30px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-family: IRANYekanX;
+    font-size: 8px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 5px;
+    font-size: 8px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 11px;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  section.social-links {
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+  }
+  section.social-links > div:nth-of-type(1) {
+    width: 50%;
+    text-align: left;
+  }
+  section.social-links > div > a > i {
+    padding: 5px;
+    font-size: 8px;
+    color: #0d244c;
+    transition: all 300ms linear;
+  }
+  section.social-links > div > a > i:hover {
+    opacity: 0.5;
+  }
+  section.social-links > div:nth-of-type(2) {
+    width: 50%;
+    text-align: right;
+  }
+  section.social-links > div:nth-of-type(2) > p {
+    font-family: IRANYekanX;
+
+    color: #0d244c;
+    font-size: 7px;
+    width: 100%;
+  }
+  section.social-links > div:nth-of-type(2) > p > i {
+    margin-left: 5px;
+    color: #0d244c;
+    margin-bottom: 6px;
+    font-size: 9px;
+  }
+  section.header-content {
+    padding: 12px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  section.header-content > div:nth-of-type(1) {
+    width: 20%;
+    margin: auto;
+  }
+  section.header-content > nav {
+    width: 100%;
+  }
+  section.header-content > nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  section.header-content > nav > ul > li {
+    padding: 10px 0px;
+    margin: 0px 5px;
+  }
+  section.header-content > nav > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.header-content > nav > ul > li > a:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid #c2c8d2;
+  }
+  section.header-content > nav > ul > li > a > i {
+    font-size: 6px;
+    margin-left: 3px;
+    color: #0d244c;
+  }
+  section.header-content > div:nth-of-type(2) {
+    width: 100%;
+    text-align: center;
+  }
+  section.header-content > div:nth-of-type(2) > a > i {
+    color: #0d244c;
+    font-size: 10px;
+    margin-left: 5px;
+    transition: all 400ms linear;
+  }
+  section.header-content > div:nth-of-type(2) > a > i:hover {
+    opacity: 0.5;
+  }
+  section.product-highlights {
+    width: 97%;
+    text-align: center;
+    margin: auto;
+  }
+  section.product-highlights > div.women-brands {
+    width: 100%;
+    overflow: hidden;
+  }
+  section.product-highlights > div.women-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image4.jpg) no-repeat center center scroll;
+    background-size: cover;
+    transition: all 400ms linear;
+  }
+  section.product-highlights > div.women-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.women-brands > div > h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.women-brands > div > p {
+    color: #f3f3f3;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.women-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.product-highlights > div.men-brands {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  }
+  section.product-highlights > div.men-brands > div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(13, 36, 76, 0.082),
+        rgba(13, 36, 76, 0.062)
+      ),
+      url(image/image1.jpg) no-repeat center center scroll;
+    transition: all 400ms linear;
+    background-size: cover;
+  }
+  section.product-highlights > div.men-brands > div:hover {
+    transform: scale(1.05);
+  }
+  section.product-highlights > div.men-brands > div > h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    font-family: IRANYekanX;
+    margin-bottom: 28px;
+  }
+  section.product-highlights > div.men-brands > div > p {
+    color: #f3f3f3;
+    font-size: 10px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p.text {
+    margin-bottom: 25px;
+  }
+  section.product-highlights > div.men-brands > div > p > a {
+    color: #f3f3f3;
+    font-size: 11px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+  }
+  section.product-highlights > div.ShoppingMenu {
+    background: url(image/logo2.png) repeat center center scroll;
+    width: 100%;
+    background-color: #0d244c;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+  }
+  section.product-highlights > div.ShoppingMenu > input {
+    padding: 13px;
+    width: 30%;
+    margin-left: 30px;
+    background-color: #0d244c;
+    border: none;
+    border-bottom: 2px solid #455673;
+    color: white;
+    font-size: 8px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    outline: none;
+    font-family: IRANYekanX;
+    text-align: right;
+  }
+  section.product-highlights > div.ShoppingMenu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li {
+    padding: 3px;
+    margin: 0px 2px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a {
+    text-decoration: none;
+    color: #e2e2e2;
+    font-size: 7px;
+    font-family: IRANYekanX;
+    transition: all 300ms linear;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i {
+    color: white;
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a:hover {
+    color: #dfa564;
+  }
+  section.product-highlights > div.ShoppingMenu > ul > li > a > i:hover {
+    color: #dfa564;
+  }
+  main {
+    width: 100%;
+  }
+  section.promotion {
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    padding: 30px;
+  }
+  section.promotion > img {
+    margin: 12px 0px;
+  }
+  section.promotion > p {
+    font-size: 10px;
+    width: 100%;
+    margin: auto;
+    color: #0d244c;
+    line-height: 30px;
+    font-family: IRANYekanX;
+    margin-bottom: 25px;
+  }
+  section.promotion > a {
+    font-size: 10px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    color: #0d244c;
+    border-bottom: 2px solid #0d244c;
+    width: 100%;
+  }
+  section.latest-products {
+    width: 98%;
+    margin: auto;
+  }
+  section.latest-products > h2 {
+    font-size: 10px;
+    text-align: center;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    margin: 0px 30px 15px 50px;
+  }
+  section.latest-products > h2 > i {
+    font-size: 13px;
+    padding-left: 3px;
+  }
+  section.latest-products > div.featuredProducts > div {
+    width: 100%;
+    margin: 30px 0px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > h2 {
+    font-size: 10px;
+    color: #0d2469;
+    font-family: IRANYekanX;
+    font-weight: 500;
+  }
+  section.latest-products > div.featuredProducts > div > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > a > img {
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.latest-products > div.featuredProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony1 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.latest-products > div.featuredProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+
+  section.special-offers {
+    width: 97%;
+    height: 150vh;
+    margin: 40px auto;
+  }
+  section.special-offers > div.discount-shop {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    margin: auto;
+  }
+  section.special-offers > div.discount-shop > div.promo-left {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image15.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 600ms linear;
+    margin-top: 40px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 220px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  section.special-offers > div.discount-shop > div.promo-left > p > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > h1 {
+    color: white;
+    font-size: 16px;
+    padding-top: 35px;
+    font-family: IRANYekanX;
+    margin-bottom: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p {
+    color: #f3f3f3;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store
+    > p
+    > a {
+    color: #f3f3f3;
+    font-size: 9px;
+    font-family: IRANYekanX;
+    border-bottom: 2px solid #f3f3f3;
+    text-decoration: none;
+  }
+  section.special-offers > div.promo-right {
+    width: 100%;
+    height: 120vh;
+    margin: auto 20px;
+  }
+  section.special-offers > div.promo-right > div.clothing-section {
+    overflow: hidden;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image2.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 90%;
+    height: 55vh;
+    margin-bottom: 38px;
+    text-align: center;
+    transition: all 500ms linear;
+    margin-top: 20px;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.fashion-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store {
+    background: linear-gradient(
+        to top,
+        rgba(37, 34, 34, 0.164),
+        rgba(0, 0, 0, 0.158)
+      ),
+      url(image/image3.jpg) no-repeat center center scroll;
+    background-size: cover;
+    width: 90%;
+    height: 55vh;
+    text-align: center;
+    transition: all 500ms linear;
+  }
+  section.special-offers
+    > div.promo-right
+    > div.clothing-section
+    > div.men-store:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  section.blog-section {
+    background-color: #0d244c;
+    width: 97%;
+    height: 250vh;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 500px;
+  }
+  section.blog-section > h2 {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section > div.blog-container {
+    width: 100%;
+  }
+  section.blog-section > div.blog-container > div.blog-card {
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+  }
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-1,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-2,
+  section.blog-section > div.blog-container > div.blog-card > div.blog-card-3 {
+    width: 80%;
+    height: 48vh;
+    background-color: #0d244c;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > h2,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > h2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 250px;
+    margin-left: 5px;
+    font-family: IRANYekanX;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p {
+    margin-top: 20px;
+    color: white;
+    font-size: 6px;
+    margin-left: 40px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p:hover,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p:hover {
+    color: #dfa564;
+  }
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-1
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-2
+    > a
+    > p
+    > i,
+  section.blog-section
+    > div.blog-container
+    > div.blog-card
+    > div.blog-card-3
+    > a
+    > p
+    > i {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section.product-categories {
+    width: 100%;
+    height: 90vh;
+  }
+  section.product-categories > h2 {
+    font-family: IRANYekanX;
+    text-align: center;
+    margin-top: 70px;
+    color: #0d244c;
+    font-size: 11px;
+  }
+  section.product-categories > h2 > i {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+
+  section.product-categories > div.productCategories > div {
+    width: 75%;
+    height: 50vh;
+    margin: 40px auto;
+  }
+  section.product-categories > div.productCategories > div > p {
+    color: #0d244c;
+    font-size: 11px;
+    padding-top: 5px;
+    font-family: IRANYekanX;
+  }
+  section.product-categories > div.productCategories > div > h2 {
+    color: #0d244c;
+  }
+  section.product-categories > div.productCategories > div > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.image-section {
+    width: 97%;
+    height: 110vh;
+    background: url(image/banner-3-scaled.jpg) no-repeat center center
+      scroll;
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    margin: auto;
+    margin-top: 1000px;
+  }
+  section.image-section > div {
+    width: 35%;
+    height: 80vh;
+  }
+  section.image-section > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  section.spring-sales {
+    background: linear-gradient(
+        to top,
+        rgba(255, 253, 253, 0.219),
+        rgba(238, 226, 226, 0.699)
+      ),
+      url(image/image26.png) no-repeat center center scroll;
+    background-size: cover;
+    width: 97%;
+    height: 240vh;
+    margin: auto;
+  }
+  section.spring-sales > div {
+    margin-top: 60px;
+    width: 100%;
+    height: 50vh;
+  }
+  section.spring-sales > div > div.mony2 {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+  }
+  section.spring-sales > div > div.mony2 > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.spring-sales > div > h4 {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #0d2e57;
+    font-family: Fontjo;
+    margin-top: 8px;
+  }
+  section.spring-sales > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.spring-sales > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.spring-sales > div > p {
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  section.spring-sales > div.spring-sale > h2 {
+    font-size: 15px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  section.spring-sales > div.spring-sale {
+    margin: auto;
+    width: 100%;
+    margin-top: 60px;
+  }
+  section.spring-sales > div.spring-sale > p > a {
+    font-size: 10px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    text-decoration: none;
+    border-bottom: 1px solid #0d244c;
+  }
+  section.spring-sales > div.spring-sale > div.date {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: IRANYekanX;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+  }
+  section.spring-sales > div.spring-sale > div.date > h4 {
+    font-size: 12px;
+    color: #0d244c;
+    margin-right: 10px;
+    font-family: Fontjo;
+    margin: auto;
+  }
+  section.spring-sales > div.spring-sale > div.date > p {
+    color: #0d244c;
+    font-size: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin: auto;
+  }
+  section.newsletter-signup {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        rgba(29, 28, 28, 0.432),
+        rgba(20, 2, 2, 0.712)
+      ),
+      url(image/image27.jpg) no-repeat center center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  section.newsletter-signup > h2 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+    margin-top: 30px;
+  }
+  section.newsletter-signup > p {
+    color: white;
+    font-size: 8px;
+    margin-bottom: 20px;
+    font-family: IRANYekanX;
+  }
+  section.newsletter-signup > div.search {
+    display: flex;
+    justify-content: center;
+  }
+  section.newsletter-signup > div.search > input {
+    width: 50%;
+    height: 45px;
+    border: none;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 13px;
+    padding: 20px;
+    outline: none;
+  }
+
+  section.newsletter-signup > div.search > button {
+    width: 20%;
+    background-color: #0d244c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    height: 45px;
+    margin-top: 40px;
+    font-family: IRANYekanX;
+    font-size: 16px;
+    transition: all 400ms linear;
+  }
+  section.newsletter-signup > div.search > button:hover {
+    background-color: #dfc38b;
+  }
+  section.women-products {
+    width: 100%;
+    height: 370vh;
+  }
+  section.women-products > h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: IRANYekanX;
+    color: #0d244c;
+    font-size: 14px;
+  }
+  section.women-products > h2 > i {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+
+  section.women-products > div.bestsellerProducts > div {
+    width: 100%;
+    height: 50vh;
+    margin: 40px 11px 0px 11px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h4 {
+    font-size: 10px;
+    margin-right: 5px;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > h6 {
+    font-size: 8px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #0d2e57;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > div.mony2 > p {
+    border-radius: 2px;
+    text-align: center;
+    font-size: 9px;
+    width: 85px;
+    height: 20px;
+    background-color: #8aada8;
+    color: white;
+    font-family: Fontjo;
+  }
+  section.women-products > div.bestsellerProducts > div > p {
+    color: #0d244c;
+    font-size: 10px;
+    padding-top: 15px;
+    font-family: IRANYekanX;
+    margin-bottom: 8px;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms linear;
+  }
+  section.women-products > div.bestsellerProducts > div > a > img:hover {
+    opacity: 0.5;
+  }
+  section.women-products > div.bestsellerProducts > div > h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: IRANYekanX;
+  }
+  section.advertising {
+    background: url(image/logo2.png) repeat center center scroll;
+    height: 100vh;
+    width: 97%;
+    background-color: #0d244c;
+
+    justify-content: center;
+  }
+  section.advertising > div {
+    width: 40%;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  section.advertising > div > img {
+    width: 20%;
+  }
+  section.advertising > div > p:nth-of-type(1) {
+    margin-top: 20px;
+    font-size: 7px;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: IRANYekanX;
+    margin-right: 30px;
+  }
+  section.advertising > div > p:nth-of-type(2) > a {
+    color: #ddb55eee;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    transition: all 400ms linear;
+  }
+  section.advertising > div > p:nth-of-type(2) > a:hover {
+    color: white;
+  }
+  footer {
+    background-color: #f8f5ef;
+    width: 97%;
+    margin: auto;
+  }
+  footer > section.footer-top-section {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 70px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  footer > section.footer-top-section > div.about-us-section {
+    width: 18%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  footer > section.footer-top-section > div.about-us-section > h3 {
+    font-size: 12px;
+    color: #0d244c;
+    margin-bottom: 25px;
+    font-family: IRANYekanX;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.about-us-section > p {
+    font-size: 8px;
+    color: #0d244c;
+    margin-bottom: 10px;
+    line-height: 10px;
+    font-family: IRANYekanX;
+  }
+
+  footer > section.footer-top-section > div.shop-links {
+    width: 11%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer > section.footer-top-section > div.shop-links > h3 {
+    color: #0d244c;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-family: IRANYekanX;
+    font-size: 8px;
+    font-weight: 900;
+  }
+  footer > section.footer-top-section > div.shop-links > ul {
+    list-style-type: none;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li {
+    margin-left: 7px;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a {
+    text-decoration: none;
+    color: #0d244c;
+    font-size: 8px;
+    font-family: IRANYekanX;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.shop-links > ul > li > a:hover {
+    color: #0d60ab;
+  }
+  footer > section.footer-top-section > div.newsletter-signup {
+    width: 46%;
+    text-align: center;
+    line-height: 40px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > p {
+    font-family: IRANYekanX;
+    font-size: 9px;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > input {
+    width: 70%;
+    height: 50px;
+    background-color: #f8f5ef;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 15px;
+    font-size: 7px;
+    outline: none;
+    margin-top: 5px;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > h3 {
+    color: #0d244c;
+    font-size: 7px;
+    font-weight: 900;
+    font-family: IRANYekanX;
+  }
+  footer > section.footer-top-section > div.newsletter-signup > div > button {
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-family: IRANYekanX;
+    font-size: 6px;
+    color: #0d244c;
+    transition: all 400ms linear;
+  }
+  footer > section.footer-top-section > div.about-us-section > div > a > i {
+    padding: 5px;
+    font-size: 7px;
+    color: #0d244c;
+  }
+  footer
+    > section.footer-top-section
+    > div.about-us-section
+    > div
+    > a
+    > i:hover {
+    opacity: 0.5;
+  }
+  footer
+    > section.footer-top-section
+    > div.newsletter-signup
+    > div
+    > button:hover {
+    background-color: #dfc38b;
+    color: white;
+  }
+  footer > section.footer-bottom-section {
+    height: 30vh;
+    text-align: center;
+    background-color: #f8f5ef;
+  }
+  footer > section.footer-bottom-section > p {
+    width: 100%;
+    padding: 30px;
+    color: #0d244c;
+    font-family: IRANYekanX;
+    font-size: 11px;
+  }
+}

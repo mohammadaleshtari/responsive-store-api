@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "image": "image/image19.jpg",
+    "name": "زنانه"
+  },
+  {
+    "id": "2",
+    "image": "image/image20.jpg",
+    "name": "دسته بندی نشده"
+  },
+  {
+    "id": "3",
+    "image": "image/image15.jpg",
+    "name": "پوشاک و لباس خیابانی "
+  },
+  {
+    "id": "4",
+    "image": "image/image14.jpg",
+    "name": "لباس بهاری"
+  },
+  {
+    "id": "5",
+    "image": "image/image21.jpg",
+    "name": "جدید "
+  }
+]

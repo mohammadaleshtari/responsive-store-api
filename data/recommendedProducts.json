@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "image": "image/image23.jpg",
+    "name": "ژاکت ساده",
+    "price": "450تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "2",
+    "image": "image/image14.jpg",
+    "name": "لیاس مرجانی ",
+    "price": "998تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "3",
+    "image": "image/image12.jpg",
+    "name": "  ژاکت قرمز  ",
+    "price": "778تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  },
+  {
+    "id": "4",
+    "image": "image/image11.jpg",
+    "name": "  ژاکت قرمز  ",
+    "price": "778تومان",
+    "Discount": "399تومان",
+    "off": "33% off"
+  }
+]
